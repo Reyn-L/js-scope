@@ -19,12 +19,10 @@ function outerFunction() {
 
   function innerFunction() {
     var world = 'World';
-    return "Hello World";
+    return hello + " " + world;
   }
   return innerFunction();
 }
-
-
 // This is a function that takes in a 2d-array (or matrix) and returns the sum of all elements
 // It's broken due to count variables colliding into each other.  Fix it!
 function addMatrixElements(matrix) {
